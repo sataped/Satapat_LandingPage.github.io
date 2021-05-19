@@ -1,12 +1,154 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Personal Portfolio Website K.Satapat</title>
+    <title>Portfolio K.Satapat</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="vendor/bootstrap-5.0.0-dist/css/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <link href="vendor/icon/icofont/icofont.css" rel="stylesheet" >
+    <link href="vendor/aos-master/dist/aos.css" rel="stylesheet" >
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="vendor/VenoBox-master/venobox/venobox.css" rel="stylesheet" >
+    <link href="vendor/OwlCarousel2-2.3.4/docs/assets/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" >
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
-    <h1>Hello World</h1>
+    <button type="button" class="mobile-nav-toggle d-xl-none"><i class="icofont-navigation-menu"></i></button>
+
+    <!-- Header -->
+    <header id="header">
+        <div class="d-flex flex-column">
+        <div class="profile">
+            <img src="img/profile.jpg" alt="" class="img-fluid rounded-circle">
+            <h1 class="text-light"><a href="index.html">Satapat Kiatsayomphu</a></h1>
+            <div class="social-links mt-3 text-center">
+                <a href="#" class="twitter"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="facebook"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="instagram"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="youtube"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+        <!-- Navigation Menu -->
+        <nav class="nav-menu">
+            <ul>
+                <li class="active"><a href="index.html"><i class="fas fa-home"></i><span>Home</span></a></li>
+                <li><a href="#about"><i class="bx bx-user"></i><span>About</span></a></li>
+                <li><a href="#resume"><i class="fas fa-file"></i><span>Resume</span></a></li>
+                <li><a href="#portfolio"><i class="fas fa-book"></i><span>Portfolio</span></a></li>
+                <li><a href="#services"><i class="fas fa-server"></i><span>Service</span></a></li>
+                <li><a href="#contact"><i class="fas fa-address-book"></i><span>Contact</span></a></li>
+            </ul>
+        </nav> 
+        <button type="button" class="mobile-nav-toggle d-xl-none"><i class="icofont-navigation-menu"></i></button>
+
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
+        <div class="hero-container" data-aos="fade-in">
+            <h1>Satapat Kiatsayomphu</h1>
+            <p>I am a <span class="typed" data-typed-items="Designer,Developer, Freelancer, Photographer"></span></p>
+        </div>
+    </section>
+
+    <main id="main">
+        <!-- About Section -->
+        <section id="about" class="about">
+            <div class="container">
+                <div class="section-title">
+                    <h2>About</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum, maxime sequi voluptates ducimus eum officia doloribus quis molestias modi illo nesciunt, voluptas veritatis deleniti aut pariatur ipsum neque, reiciendis enim omnis sint facilis. Consequuntur tempore dolore odit atque, dignissimos nisi obcaecati nemo veritatis hic necessitatibus quibusdam. Blanditiis ea veritatis sapiente?</p>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4" data-aos="fade-right">
+                        <img src="img/profile.jpg" class="img-fluid" alt="">
+                    </div>
+                    <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
+                        <h3>UI/UX Designer &amp; Web Developer</h3>
+                        <p class="font-italic">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, quos.</p>
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <ul>
+                                    <li><i class="icofont-rounded-right"></i><strong>Birthday : </strong>27 October 1992</li>
+                                    <li><i class="icofont-rounded-right"></i><strong>Website : </strong>www.example.com</li>
+                                    <li><i class="icofont-rounded-right"></i><strong>Phone : </strong>091 416 4790</li>
+                                    <li><i class="icofont-rounded-right"></i><strong>City : </strong>Khonkaen , Thailand</li>
+                                </ul>
+                            </div>
+                            <div class="col-lg-6">
+                                <ul>
+                                    <li><i class="icofont-rounded-right"></i><strong>Age : </strong>29</li>
+                                    <li><i class="icofont-rounded-right"></i><strong>Degree : </strong>Junior</li>
+                                    <li><i class="icofont-rounded-right"></i><strong>Email : </strong>k.satapat@kkumail.com</li>
+                                    <li><i class="icofont-rounded-right"></i><strong>Freelance : </strong>Available</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio rem non voluptatibus eaque eum dolor cumque quasi repudiandae sapiente fugiat saepe eveniet magni ipsum, velit vel mollitia numquam incidunt impedit.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Facts Section -->
+        <section id="facts" class="facts">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Facts</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus esse ea accusamus vitae id adipisci magnam rem nesciunt aperiam? Molestias!</p>
+                </div>
+                <div class="row no-gutters">
+                    <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up">
+                        <div class="count-box">
+                            <i class="icofont-simple-smile"></i>
+                            <span data-toggle="counter-up">232</span>
+                            <p><strong>Happy Clients</strong>Consequuyer Quae</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up" data-aos-delay="100">
+                        <div class="count-box">
+                            <i class="icofont-document-folder"></i>
+                            <span data-toggle="counter-up">521</span>
+                            <p><strong>Projects</strong> adipisct atqua cum</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up" data-aos-delay="200">
+                        <div class="count-box">
+                            <i class="icofont-live-support"></i>
+                            <span data-toggle="counter-up">1,465</span>
+                            <p><strong>Hours of Support</strong> adipisct atqua cum</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up" data-aos-delay="300">
+                        <div class="count-box">
+                            <i class="icofont-user-alt-5"></i>
+                            <span data-toggle="counter-up">15</span>
+                            <p><strong>Hard Workers</strong> Rerun asperiose dolor</p>
+                        </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skill Section -->
+
+    </main>
+    
+    
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap-5.0.0-dist/js/bootstrap.bundle.min.js"></script>
+    <script src="vendor/jquery/jquery.easing.min.js"></script>
+    <script src="vendor/php/validate.js"></script>
+    <script src="vendor/jquery/jquery.waypoints.min.js"></script>
+    <script src="vendor/counterup.min.js"></script>
+    <script src="vendor/isotope.pkgd.min.js"></script>
+    <script src="vendor/VenoBox-master/venobox/venobox.min.js"></script>
+    <script src="vendor/OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
+    <script src="vendor/typed/typed.min.js"></script>
+    <script src="vendor/aos-master/dist/aos.js"></script>
+
+    <script src="app.js"></script>
+
 </body>
 </html>
