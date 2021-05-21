@@ -153,7 +153,8 @@ a:hover{
 #hero{
     width: 100%;
     height: 100vh;
-    background: url("/img/Mycat.jpg")top center;
+    /* background: url("/img/Mycat.jpg")top center; */
+    background: url("https://twinsynergy.co.th/wp-content/uploads/2020/04/vscode-config-for-front-end-developer-1068x712.jpg");
     background-size: cover;
 }
 #hero::before{
