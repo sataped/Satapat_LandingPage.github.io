@@ -437,7 +437,7 @@ section{
     background-color: #ddd !important;
 }
 .testimonials .owl-dot.active{
-    background-color: ##149ddd !important;
+    background-color: #149ddd !important;
 }
 @media(max-width:767px){
     .testimonials{
